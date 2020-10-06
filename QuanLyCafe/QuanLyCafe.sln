@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QLCafe.Application", "QLCafe.Application\QLCafe.Application.csproj", "{4867C98C-59B1-45F7-AC8F-1EB736D22BA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLCafe.API", "QLCafe.API\QLCafe.API.csproj", "{267C84D7-41E3-4D27-866A-3D815B97B6F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QLCafe.API", "QLCafe.API\QLCafe.API.csproj", "{267C84D7-41E3-4D27-866A-3D815B97B6F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "C:\Users\datoa\source\repos\WebApplication\WebApplication\WebApplication.csproj", "{33E0F5A7-8A52-4F2E-B0C4-DCA7CB2498FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{267C84D7-41E3-4D27-866A-3D815B97B6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267C84D7-41E3-4D27-866A-3D815B97B6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{267C84D7-41E3-4D27-866A-3D815B97B6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E0F5A7-8A52-4F2E-B0C4-DCA7CB2498FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E0F5A7-8A52-4F2E-B0C4-DCA7CB2498FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E0F5A7-8A52-4F2E-B0C4-DCA7CB2498FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E0F5A7-8A52-4F2E-B0C4-DCA7CB2498FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
