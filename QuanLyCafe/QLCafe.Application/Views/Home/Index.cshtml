@@ -1,7 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    //Layout = null; => không sử dụng layout chung 
+    
 }
+@section Head{
+    @*muốn add gì vô thẻ <head></head> thì thêm vô chỗ này*
+         vd:
+        <link href="~/css/SiteChung.min.css" rel="stylesheet" />
+        <script src="~/js/_Layout/adminlte.min.js"></script>*@
+}
+@section Script{
+    @*add các script nếu có vô đây ==> này được reader sau thẻ <footer></footer>
+    vd
+    <script src="~/js/_Layout/adminlte.min.js"></script>*@
 
+}
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
