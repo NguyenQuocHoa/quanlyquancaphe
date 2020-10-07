@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QLCafe.Application.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace QLCafe.Application.Data
         {
         }
 
-        //public DbSet<Name_Model> Name_Model { get; set; }
+        public DbSet<Ban> Bans { get; set; }
+        public DbSet<BoPhan> BoPhans { get; set; }
+        public DbSet<ChiTietHoaDon> chiTietHoaDons { get; set; }
+        public DbSet<HoaDon> HoaDons { get; set; }
+        public DbSet<LoaiSanPham> LoaiSanPhams { get; set; }
+        public DbSet<NhanVien> NhanViens { get; set; }
     }
 }

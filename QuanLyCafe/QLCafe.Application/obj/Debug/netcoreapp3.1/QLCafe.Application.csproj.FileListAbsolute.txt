@@ -109,3 +109,6 @@ F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\bin\Debug\netcoreapp3.1\runtime
 F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\obj\Debug\netcoreapp3.1\QLCafe.Application.csproj.CoreCompileInputs.cache
+F:\quanlyquancaphe\QuanLyCafe\QLCafe.Application\obj\Debug\netcoreapp3.1\QLCafe.Application.MvcApplicationPartsAssemblyInfo.cache
