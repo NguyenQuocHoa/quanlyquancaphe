@@ -1,0 +1,132 @@
+﻿
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+
+
+    <link href="~/css/Login/Site_Login.min.css" rel="stylesheet" />
+    <script src="~/lib/EDecode/sha256.js"></script>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/popper/umd/popper.min.js"></script>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+    <style>
+        .form-control {
+            border-radius: 0 .25rem .25rem 0;
+        }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 0.07rem rgba(0, 123, 255, .25);
+            }
+
+        .btn-outline-primary:hover {
+            color: #007bff;
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <div class="container login-center ">
+            <div class="row justify-content-center ">
+                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4  login-shadow ">
+                    <h1 class="text-center text-primary my-4">Login</h1>
+                    <form id="frmLogin" method="post" action="">
+                        <input type="hidden" id="ValuePost" name="Value" value="" />
+                        <div class="mb-4 d-flex">
+                            <div class="login-label">
+                                <i class="fas fa-user"></i>
+                            </div>
+
+                            <input type="text" id="user" class="form-control" placeholder="Username or Email" required maxlength="50" />
+                        </div>
+
+                        <div class="mb-2 d-flex">
+                            <div class="login-label">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <input type="password" id="password" class="form-control " placeholder="Password" required />
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="remember" checked />
+                                <label for="remember" class="custom-control-label">Remember</label>
+                            </div>
+                        </div>
+
+
+
+                        <div>
+                            <button type="submit" onclick="return decode();" class="btn btn-primary w-100">Login</button>
+                        </div>
+                    </form>
+                    <div class="d-flex justify-content-between my-2">
+                        <a href="#" class="">
+                            <small>Forgot your password</small>
+                        </a>
+                        <a href="#" class="">
+                            <small>Create account</small>
+                        </a>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between my-4">
+                        <hr class="flex-fill m-0"> <span class="mx-3">
+                            Or login with
+                        </span>
+                        <hr class="flex-fill m-0">
+                    </div>
+                    <div class="social-login mb-5">
+                        <div class=" d-flex justify-content-between ">
+                            <a href="https://fb.com">
+                                <button type="button" class="btn el-button ">
+                                    <i class="fab fa-facebook-f" style="color:#3b5998;"></i>
+                                    <span class="text-primary">Facebook</span>
+                                </button>
+                            </a>
+                            <a href="https://google.com">
+                                <button type="button" class="btn el-button ">
+                                    <i class="fab fa-google" style="color:red"></i>
+                                    <span class="text-primary">Google</span>
+                                </button>
+                            </a>
+
+                            <a href="https://github.com">
+                                <button type="button" class="btn el-button ">
+                                    <i class="fab fa-github" style="color:black"></i>
+                                    <span class="text-primary">Github</span>
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    function decode() {
+        var input = sha256($("#user").val() + $("#password").val());
+        // $("#frmLogin").attr("action", "checkLogin");
+        $("#ValuePost").attr("value", input);
+
+
+    }
+
+</script>
+
+</html> 

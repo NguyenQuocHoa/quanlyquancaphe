@@ -2,6 +2,13 @@
   "version": "1.0",
   "defaultProvider": "cdnjs",
   "libraries": [
-    
+    {
+      "library": "popper.js@2.5.2",
+      "destination": "wwwroot/lib/popper"
+    },
+    {
+      "library": "js-sha256@0.9.0",
+      "destination": "wwwroot/lib/EDecode"
+    }
   ]
 }
