@@ -1,6 +1,13 @@
-
 .vs/slnx.sqlite
 
 #bỏ qua thư mục build
 QuanLyCafe/QLCafe.Application/obj/
 QuanLyCafe/QLCafe.Application/bin/
+QuanLyCafe/QLCafe.API/obj/
+QuanLyCafe/QLCafe.API/bin/
+QuanLyCafe/.vs/QuanLyCafe/v16/.suo
+QuanLyCafe/QLCafe.API/obj/Debug/netcoreapp3.1/QLCafe.API.assets.cache
+QuanLyCafe/QLCafe.API/obj/Debug/netcoreapp3.1/QLCafe.API.csproj.FileListAbsolute.txt
+QuanLyCafe/QLCafe.Application/obj/Debug/netcoreapp3.1/QLCafe.Application.assets.cache
+QuanLyCafe/QLCafe.Application/obj/Debug/netcoreapp3.1/QLCafe.Application.csproj.FileListAbsolute.txt
+QuanLyCafe/QLCafe.Application/obj/Debug/netcoreapp3.1/QLCafe.Application.csprojAssemblyReference.cache
