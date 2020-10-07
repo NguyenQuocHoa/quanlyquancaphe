@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {}
+    "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {}
   },
   "projects": {
-    "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {
+    "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
+        "projectUniqueName": "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
         "projectName": "QLCafe.API",
-        "projectPath": "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
-        "packagesPath": "C:\\Users\\datoa\\.nuget\\packages\\",
-        "outputPath": "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\obj\\",
+        "projectPath": "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
+        "packagesPath": "C:\\Users\\MKS_HOA\\.nuget\\packages\\",
+        "outputPath": "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\datoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MKS_HOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +38,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
