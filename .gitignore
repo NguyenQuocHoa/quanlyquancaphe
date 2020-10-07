@@ -1,0 +1,6 @@
+
+.vs/slnx.sqlite
+
+#bỏ qua thư mục build
+QuanLyCafe/QLCafe.Application/obj/
+QuanLyCafe/QLCafe.Application/bin/

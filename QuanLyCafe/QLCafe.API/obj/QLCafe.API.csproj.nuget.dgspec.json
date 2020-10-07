@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {}
+    "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {}
   },
   "projects": {
-    "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {
+    "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
+        "projectUniqueName": "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
         "projectName": "QLCafe.API",
-        "projectPath": "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
-        "packagesPath": "C:\\Users\\MKS_HOA\\.nuget\\packages\\",
-        "outputPath": "F:\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\obj\\",
+        "projectPath": "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\QLCafe.API.csproj",
+        "packagesPath": "C:\\Users\\datoa\\.nuget\\packages\\",
+        "outputPath": "F:\\Document\\My Do An\\quanlyquancaphe\\QuanLyCafe\\QLCafe.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MKS_HOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\datoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
