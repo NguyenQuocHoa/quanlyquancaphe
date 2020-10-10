@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QLCafe.Application", "QLCaf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QLCafe.API", "QLCafe.API\QLCafe.API.csproj", "{267C84D7-41E3-4D27-866A-3D815B97B6F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{043DAEDC-80F5-478F-B1D5-8DACC55D99AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{267C84D7-41E3-4D27-866A-3D815B97B6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267C84D7-41E3-4D27-866A-3D815B97B6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{267C84D7-41E3-4D27-866A-3D815B97B6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043DAEDC-80F5-478F-B1D5-8DACC55D99AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043DAEDC-80F5-478F-B1D5-8DACC55D99AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043DAEDC-80F5-478F-B1D5-8DACC55D99AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043DAEDC-80F5-478F-B1D5-8DACC55D99AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

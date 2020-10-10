@@ -1,0 +1,9 @@
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\bin\Debug\netcoreapp3.1\Library.deps.json
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\bin\Debug\netcoreapp3.1\Library.dll
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\bin\Debug\netcoreapp3.1\Library.pdb
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\obj\Debug\netcoreapp3.1\Library.csprojAssemblyReference.cache
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfoInputs.cache
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfo.cs
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\obj\Debug\netcoreapp3.1\Library.dll
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\Library\obj\Debug\netcoreapp3.1\Library.pdb

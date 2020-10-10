@@ -1,5 +1,5 @@
-﻿
-
+﻿@using Library
+@model LoginRequest
 @{
     Layout = null;
 }
@@ -45,21 +45,22 @@
             <div class="row justify-content-center ">
                 <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4  login-shadow ">
                     <h1 class="text-center text-primary my-4">Login</h1>
-                    <form id="frmLogin" method="post" action="">
-                        <input type="hidden" id="ValuePost" name="Value" value="" />
+                    <form id="frmLogin" method="post" asp-action="Login" asp-controller="Login">
+                       
                         <div class="mb-4 d-flex">
                             <div class="login-label">
                                 <i class="fas fa-user"></i>
                             </div>
 
-                            <input type="text" id="user" class="form-control" placeholder="Username or Email" required maxlength="50" />
+                            <input type="text" asp-for="User" class="form-control" placeholder="Username or Email" required maxlength="50" />
                         </div>
 
                         <div class="mb-2 d-flex">
+                            <span asp-validation-for="PassWord"></span>
                             <div class="login-label">
                                 <i class="fas fa-lock"></i>
                             </div>
-                            <input type="password" id="password" class="form-control " placeholder="Password" required />
+                            <input type="password" asp-for="PassWord"  class="form-control " placeholder="Password" required min="8" maxlength="20"/>
                         </div>
                         <div class="form-group">
                             <div class="custom-control custom-checkbox">
@@ -120,9 +121,10 @@
 </body>
 <script>
     function decode() {
-        var input = sha256($("#user").val() + $("#password").val());
+        //var input = sha256($("#User").val() + $("#password").val());
         // $("#frmLogin").attr("action", "checkLogin");
-        $("#ValuePost").attr("value", input);
+
+        $("#ENCODEPW").attr("value", $("#password").val());
 
 
     }

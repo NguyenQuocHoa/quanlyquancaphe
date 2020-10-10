@@ -128,3 +128,7 @@ F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\obj\Debug\netcoreapp3
 F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\obj\Debug\netcoreapp3.1\QLCafe.API.dll
 F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\obj\Debug\netcoreapp3.1\QLCafe.API.pdb
 F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\obj\Debug\netcoreapp3.1\QLCafe.API.genruntimeconfig.cache
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\bin\Debug\netcoreapp3.1\QLCafe.API.Views.dll
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\bin\Debug\netcoreapp3.1\QLCafe.API.Views.pdb
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\bin\Debug\netcoreapp3.1\Library.dll
+F:\Document\My Do An\quanlyquancaphe\QuanLyCafe\QLCafe.API\bin\Debug\netcoreapp3.1\Library.pdb

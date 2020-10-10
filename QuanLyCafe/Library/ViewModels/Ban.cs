@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QLCafe.Application.Models
+namespace Library
 {
     public class Ban
     {

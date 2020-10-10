@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using QLCafe.API.Login;
 
 namespace QLCafe.API
 {
@@ -31,6 +32,7 @@ namespace QLCafe.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger QLCafe", Version = "v1" });
             });
+            services.AddTransient<IUserServices, UserServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

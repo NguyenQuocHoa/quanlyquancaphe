@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using QLCafe.Application.Data;
+using QLCafe.Application.Services;
 
 namespace QLCafe.Application
 {
@@ -29,6 +30,9 @@ namespace QLCafe.Application
 
             services.AddDbContext<QLCafeContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("QLCafeContext")));
+            services.AddHttpClient();
+            services.AddTransient<IUserApiClient, UserApiClient>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +59,7 @@ namespace QLCafe.Application
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Login}/{action=login}");
             });
         }
     }

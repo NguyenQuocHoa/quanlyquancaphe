@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QLCafe.Application.Models
+namespace Library
 {
     public class NhanVien
     {
@@ -16,11 +16,11 @@ namespace QLCafe.Application.Models
         [Display(Name = "Họ Tên")]
         public string HoTen { get; set; }
 
-        //[Display(Name = "Tên Đăng Nhập")]
-        //public string TenDangNhap { get; set; }
+        [Display(Name = "Tên Đăng Nhập")]
+        public string TenDangNhap { get; set; }
 
-        //[Display(Name = "Mật Khẩu")]
-        //public string MatKhau { get; set; }
+        [Display(Name = "Mật Khẩu")]
+        public string MatKhau { get; set; }
 
         [Display(Name = "Giới Tính")]
         public string GioiTinh { get; set; }
